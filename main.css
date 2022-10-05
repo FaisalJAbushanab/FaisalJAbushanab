@@ -85,7 +85,7 @@
 #video{
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100vh;
     background: url('background4.jpg');
     background-blend-mode: multiply;
     background-position: right;
