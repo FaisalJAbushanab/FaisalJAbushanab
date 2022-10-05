@@ -77,6 +77,10 @@
     height: auto;
     min-height: 550px;
     margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+}
+#features .box:hover{
+    box-shadow: 1px 1px 7px #1e3799;
 }
 #features .container{
     text-align: center;
