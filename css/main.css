@@ -233,6 +233,12 @@ i{
     background-color: #d43333;
 }
 @media (max-width: 768px) {
+    .copyrights{
+        font-size: 14px;
+    }
+    #suffex ul{
+        float: none;
+    }
     .table-bordered{
         width: 100% !important;
     }
