@@ -13,7 +13,7 @@
 #main-section{
     position: relative;
     width: 100%;
-    height: 390px;
+    height: 100vh;
     background: url('../images/background2.jpg') rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
     background-position: center;
@@ -151,19 +151,23 @@
     overflow: hidden;
     font-weight: bold;
 }
-#register .overlay{
+#register .overlay {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
     width: 100%;
     height: 100%;
-    background: #396afc;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    opacity: .4;
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #243B55, #141e306c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #243B55, #141e306c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: .9;
     overflow: hidden;
 }
+
 #register .container{
     position: relative;
     top: 70px;
@@ -263,6 +267,7 @@ i{
     color: white;
     z-index: 111;
     padding-top: 100px;
+    margin-top: 0 !important;
     margin-bottom: 20px;
     font-family: tajawal-regular;
     }
