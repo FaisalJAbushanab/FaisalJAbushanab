@@ -304,6 +304,9 @@ i{
     background-color: #d43333;
 }
 @media (max-width: 768px) {
+    #register{
+        padding-bottom: 150px !important;
+    }
     .copyrights{
         font-size: 14px;
     }
